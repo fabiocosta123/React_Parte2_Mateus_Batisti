@@ -5,17 +5,25 @@
       "name": "calça",
       "price": 149.9
     },
-
     {
       "id": 2,
       "name": "camiseta",
       "price": 59.9
     },
-
     {
       "id": 3,
       "name": "tênis",
       "price": 99.9
+    },
+    {
+      "name": "harpa",
+      "price": "9.90",
+      "id": 4
+    },
+    {
+      "name": "Bíblia",
+      "price": "349.90",
+      "id": 5
     }
   ]
 }
