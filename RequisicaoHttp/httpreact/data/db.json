@@ -31,9 +31,24 @@
       "id": 6
     },
     {
-      "name": "prendedor de gravata",
-      "price": "5",
-      "id": 7
+      "name": "blusa",
+      "price": "56.90",
+      "id": 9
+    },
+    {
+      "name": "vestido",
+      "price": "99.99",
+      "id": 10
+    },
+    {
+      "name": "cd",
+      "price": "5.00",
+      "id": 11
+    },
+    {
+      "name": "playbac",
+      "price": "4.50",
+      "id": 12
     }
   ]
 }
