@@ -1,6 +1,6 @@
 import "./App.css";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 // custom hook
 import { useFetch } from "./hooks/useFetch";
@@ -11,14 +11,14 @@ function App() {
   const [products, setProducts] = useState([]);
 
   // custom hooks
-  const { data: items } = useFetch(url);
+  const { data: items, httpConfig } = useFetch(url);
 
   const [name, setName] = useState("");
   const [price, setPrice] = useState("");
 
   // resgatando dados
 
-  /* useEffect(() => {
+  /*useEffect(() => {
     async function fetchData() {
       const res = await fetch(url);
 
@@ -27,7 +27,7 @@ function App() {
       setProducts(data);
     }
     fetchData();
-  }, [setProducts]); */
+  }, [setProducts]);*/
 
   // add produtos
 
@@ -41,20 +41,23 @@ function App() {
     const res = await fetch(url, {
       method: "POST",
       headers: {
-        "content-type": "application/json",
+        "Content-type": "application/json",
       },
       body: JSON.stringify(products),
     });
 
     // carregamento dinamico
-    const addedProducts = await res.json();
+    /*const addedProducts = await res.json();
 
     setProducts((prevProducts) => [...prevProducts, addedProducts]);
 
     // resetando os inputs
     setName("");
-    setPrice("");
+    setPrice("");*/
   };
+
+  // refatorando post
+  httpConfig(products, "POST");
 
   return (
     <div className="App">
