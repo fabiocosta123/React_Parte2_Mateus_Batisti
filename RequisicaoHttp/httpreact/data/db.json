@@ -24,6 +24,16 @@
       "name": "Bíblia",
       "price": "349.90",
       "id": 5
+    },
+    {
+      "name": "Caneca",
+      "price": "34.90",
+      "id": 6
+    },
+    {
+      "name": "prendedor de gravata",
+      "price": "5",
+      "id": 7
     }
   ]
 }

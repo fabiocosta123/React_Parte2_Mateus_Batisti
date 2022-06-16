@@ -39,7 +39,15 @@ function App() {
       },
       body: JSON.stringify(products),
     });
-    console.log(products);
+
+    // carregamento dinamico
+    const addedProducts = await res.json();
+
+    setProducts((prevProducts) => [...prevProducts, addedProducts]);
+
+    // resetando os inputs
+    setName("");
+    setPrice("");
   };
 
   return (
