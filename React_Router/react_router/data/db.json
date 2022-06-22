@@ -1,0 +1,14 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Bíblia letra Gigante",
+      "price": 89.9
+    },
+    {
+      "id": 2,
+      "name": "Camiseta",
+      "price": 59.9
+    }
+  ]
+}
