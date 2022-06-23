@@ -36,19 +36,9 @@
       "id": 9
     },
     {
-      "name": "vestido",
-      "price": "99.99",
+      "name": "Vestido summer",
+      "price": "109.90",
       "id": 10
-    },
-    {
-      "name": "cd",
-      "price": "5.00",
-      "id": 11
-    },
-    {
-      "name": "playbac",
-      "price": "4.50",
-      "id": 12
     }
   ]
 }

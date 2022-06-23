@@ -82,7 +82,7 @@ export const useFetch = (url) => {
     };
 
     httpRequest();
-  }, [config, method, setCallFetch, url]);
+  }, [config, method, setCallFetch, url, itemId]);
 
   return { data, httpConfig, loading, error };
 };
