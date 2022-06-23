@@ -9,6 +9,11 @@
       "id": 2,
       "name": "Camiseta",
       "price": 59.9
+    },
+    {
+      "id": 3,
+      "name": "Vestido Summer",
+      "price": 100.0
     }
   ]
 }
