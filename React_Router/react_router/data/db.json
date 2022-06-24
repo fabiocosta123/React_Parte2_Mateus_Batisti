@@ -14,6 +14,16 @@
       "id": 3,
       "name": "Vestido Summer",
       "price": 100.0
+    },
+    {
+      "id": 4,
+      "name": "Folheto evangelismo",
+      "price": 3.0
+    },
+    {
+      "id": 5,
+      "name": "Caneca porcelana",
+      "price": 34.9
     }
   ]
 }
