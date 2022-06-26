@@ -1,0 +1,10 @@
+body {
+  background: linear-gradient(to bottom, #8e760b);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 0 10px;
+}
