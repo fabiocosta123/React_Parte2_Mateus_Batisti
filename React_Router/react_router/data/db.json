@@ -24,6 +24,11 @@
       "id": 5,
       "name": "Caneca porcelana",
       "price": 34.9
+    },
+    {
+      "id": 6,
+      "name": "Caneca Branca",
+      "price": 29.9
     }
   ]
 }
