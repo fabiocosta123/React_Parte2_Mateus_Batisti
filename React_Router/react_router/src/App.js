@@ -2,7 +2,7 @@ import "./App.css";
 import "./Components/Navbar.css";
 
 // 1 - config react router
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 // Pages
 import Home from "./Pages/Home";
@@ -31,6 +31,8 @@ function App() {
           <Route path="/products/:id" element={<Product />} />
           <Route path="/products/:id/Info" element={<Info />} />
           <Route path="/search" element={<Search />} />
+          {/*redirecionando rota de company para about*/}
+          <Route path="/company" element={<Navigate to="/about" />} />{" "}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
