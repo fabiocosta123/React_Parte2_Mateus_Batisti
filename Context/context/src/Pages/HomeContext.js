@@ -1,9 +1,12 @@
-import { useContext } from "react";
+//import { useContext } from "react";
 import ChangeCounter from "../Components/ChangeCounter";
-import { CounterContext } from "../Components/CounterContext";
+//import { CounterContext } from "../Components/CounterContext";
 
+// refatorando com hook
+import { useCounterContext } from "../Components/Hooks/useCounterContext";
 const HomeContext = () => {
-  const { counter } = useContext(CounterContext);
+  // const { counter } = useContext(CounterContext);
+  const { counter } = useCounterContext();
 
   return (
     <div>
