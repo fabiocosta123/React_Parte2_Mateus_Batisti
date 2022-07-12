@@ -1,7 +1,7 @@
 // alterando contexto
 
 import { useContext } from "react";
-import { CounterContext } from "./CounterContext";
+import { CounterContext } from "../Components/CounterContext";
 
 const ChangeCounter = () => {
   const { counter, setCounter } = useContext(CounterContext);
